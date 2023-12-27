@@ -1,0 +1,206 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+nav{
+    background-color: rgb(59, 8, 77);
+    display: flex;
+    height: 30px;
+    align-items: center;
+    justify-content: space-around;
+
+}
+
+body{
+    font-family: 'Dancing Script',cursive;
+    background-color:rgb(115, 47, 75);
+    border: 2rem solid transparent;
+    border-color:rgb(14, 113, 211);
+    border-image-slice: 2;
+    z-index: -1;
+    
+}
+nav{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    color: coral;
+    background-color:rgb(59, 8, 77);
+    top: 0;
+    left: 0;
+    position: sticky;
+    z-index: 1;
+}
+.logo{
+    width: 35%;
+    height: 100px;
+}
+.logo h1{
+    line-height: 100px;
+    padding-left: 10rem;
+    font-size: 2.5rem;
+}
+
+ul{
+    color: brown;
+    background-color: rgb(59, 8, 77);
+}
+.items{
+    width: 50%;
+    height: 8vh;
+    justify-content: space-around;
+    display: flex;
+    flex-direction: row;
+    color: brown;
+    background-color:rgb(59, 8, 77);
+    list-style: none;
+    padding-top: 2rem;
+    list-style-type: none;
+
+}
+.items>li>a{
+    font-size:30px;
+    font-weight: bolder;
+    text-transform: uppercase;
+    color:orangered;
+    list-style-type: none;
+    display: flex;
+}
+ .font{
+    font-weight: bolder;
+    font-size: 3rem;
+    text-align: center;
+    padding-top: 2rem;
+    background: linear-gradient(350deg,orange,rgb(241, 92, 116),blue);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-transform: uppercase;
+ }
+ .font h2{
+    padding-top: 10rem;
+ }
+ h4{
+    font-size: 1.5rem;
+    text-align: center;
+    background: #e7e4da;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    padding-top: 1.5rem;
+    text-justify: newspaper;
+ }
+ .font h3{
+    font-weight: bolder;
+    font-size: 2.5rem;
+    text-align: center;
+    padding-top: 2rem;
+    background: linear-gradient(360deg,yellow,blue);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-transform: uppercase;
+ }
+ .font h5{
+    font-weight: bolder;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 1.5rem;
+    text-align: center;
+    padding-top: 2rem;
+    background:linear-gradient(360deg,rgb(215, 173, 6),rgb(224, 43, 158));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-transform: lowercase;
+    text-justify: distribute-all-lines;
+ }
+ /*hero section*/
+
+ #hero{
+    height: 35rem;
+ }
+ /*about*/
+ .about-img{
+    width: 35rem;
+    height: 25rem;
+ }
+ .about-heading{
+    padding-top: 10rem;
+    padding-bottom: 10rem;
+ }
+ .about-body{
+    display: flex;
+    justify-content: space-between;
+    padding-right: 2rem;
+    padding-left: 2rem;
+ }
+ .about-content{
+    padding-left: 3rem;
+    padding-right: 3rem;
+ }
+ /*services*/
+ .services-heading{
+    padding-top: 10rem;
+    padding-bottom: 10rem;
+ }
+ .services{
+    display: grid;
+    justify-content: space-around;
+    grid-template-columns: repeat(3,1fr);
+    grid-gap: 2rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    padding-bottom: 5rem;
+ }
+ .font{
+   background-color: darkgoldenrod;
+ }
+
+ /*artical*/
+ .artical-img{
+   width: 40rem;
+   height: 15rem;
+ }
+ .artical-heading{
+   padding-top: 10rem;
+   padding-bottom: 10rem;
+ }
+ .artical-1{
+   display: grid;
+   grid-template-columns: 1fr 1.5fr;
+   grid-template-rows: 0.5fr 0.5fr;
+   grid-row-gap: 1rem;
+   grid-column-gap: 5rem;
+   justify-content: space-between;
+   padding-left: 3rem;
+   padding-right: 3rem;
+
+ }
+ .artical-2{
+   display: grid;
+   grid-template-columns: 1fr 1.5fr;
+   grid-template-rows: 0.5fr 0.5fr;
+   grid-row-gap: 1rem;
+   grid-column-gap: 5rem;
+   justify-content: space-between;
+   padding-left: 3rem;
+
+ }
+ .artical-3{
+   display: grid;
+   grid-template-columns: 1fr 1.5fr;
+   grid-template-rows: 0.5fr 0.5fr;
+   grid-row-gap: 1rem;
+   grid-column-gap: 5rem;
+   justify-content: space-between;
+   padding-left: 3rem;
+   padding-right: 3rem;
+ }
+ /* footer*/
+ .footer-heading{
+   padding-top: 10rem;
+   padding-bottom:10rem;
+   color:blueviolet;
+ }
+ .footer-body{
+   display: flex;
+   justify-content: space-around;
+   padding-bottom: 10rem;
+ }
+ 
